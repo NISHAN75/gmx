@@ -1,0 +1,214 @@
+/* 1400, 1199, 991, 767, 575, 480, 360, 320 */
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+/* min-width 1430 */
+@media (min-width: 1430px) {
+}
+/* max-width 1399 */
+@media (max-width: 1399.98px) {
+}
+/* max-width 1199 */
+@media (max-width: 1199.98px) { 
+}
+/* max-width 1399 - min-width 992*/
+@media (max-width: 1199.98px) and (min-width: 992px) {
+}
+/* max-width 991 */
+@media (max-width: 991.98px) {
+    
+    /* heading css */
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    
+
+
+    /* all padding fix */
+    .solutions-area ,
+    .cta-area ,
+    .document-database-area ,
+    .protection-area
+    {
+        padding: 70px 0;
+    }
+    .footer-area{
+        padding: 70px 0 15px;
+    }
+    .database-inner-content {
+        padding: 50px 30px;
+    }
+    /* all padding fix */
+
+    /* banner section start */
+    .banner-area {
+        min-height: 600px;
+    }
+    .main-title {
+        margin-bottom: 50px;
+    }
+    /* banner section end */
+
+    /* protection section start  */
+    .protection-img {
+        max-width: 100%;
+    }
+    .protection-inner-content {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .protection-absolute-img {
+        display: none;
+    }
+    .protection-area .row {
+        --bs-gutter-y: 30px;
+    }
+    /* protection section end */
+
+    /* database section start*/
+    .database-inner-content h2 {
+        margin-bottom: 15px;
+    }
+    .database-inner-content .gmx-btn {
+        margin-top: 15px;
+    }
+    /* database section end */
+
+    /* footer section start */
+    .footer-top-img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .main-footer > .row {
+        --bs-gutter-x: 24px;
+    }
+    .swiper.logo-slider {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .company-contact {
+        margin: 0;
+    }
+    .main-footer-menu li {
+        margin-bottom: 5px;
+    }
+    .main-footer-menu li a {
+        font-size: 16px;
+    }
+    .main-footer {
+        padding-bottom: 20px;
+    }
+    .main-footer .row {
+        --bs-gutter-y: 20px;
+    }
+    .main-footer .gmx-btn {
+        font-size: 14px;
+    }
+    /* footer section end */
+
+    /* 991 end */
+   
+}
+/* max-width 767 */
+@media (max-width: 767.98px) { 
+    /* all padding fix */
+    .protection-area ,
+    .cta-area ,
+    .document-database-area , 
+    .solutions-area {
+        padding: 50px 0;
+    }
+    .footer-area{
+        padding: 50px 0 15px;
+    }
+    .swiper.logo-slider {
+        padding-left: 0;
+    }
+    /* all padding fix */
+
+    /* solutions section start */
+    .solutions-card-info {
+        bottom: 35px;
+    }
+    .solutions-area .row {
+        --bs-gutter-y: 30px;
+    }
+    /* solutions section start */
+
+    /* footer section start */
+    .main-footer-menu li a, .contact-title {
+        display: block;
+    }
+    /* footer section end */
+
+   
+}
+/* max-width 575 */
+@media (max-width: 575.98px) {
+
+        /* heading css */
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 32px;
+        }
+        h3{
+            font-size: 24px;
+        }
+
+        /* banner section start */
+        .main-title h1 {
+            font-size: 70px;
+        }
+        .banner-area {
+            min-height: 450px;
+        }
+        /* banner section end */
+
+        /* footer section start */
+        .right-footer-area {
+            max-width: 100%;
+        }
+        .copy-right-section {
+            flex-direction: column;
+            gap: 10px !important;
+            text-align: center;
+        }
+
+        .main-footer-menu li a, .contact-title {
+            display: inline-block;
+        }
+
+        /* footer section end */
+  
+}
+/* max-width 479 */
+@media (max-width: 479.98px) {
+
+    .main-title h1 {
+        font-size: 56px;
+    }
+ 
+  
+}
+/* max-width 383 */
+@media (max-width: 383.98px) {
+  
+}
