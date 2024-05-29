@@ -1,6 +1,6 @@
 (function ($) {
    $(document).ready(function () {   
-    var logoSlider = new Swiper(".logo-slider", {
+    let logoSlider = new Swiper(".logo-slider", {
         slidesPerView: 4,
         spaceBetween: 66,
         loop:true,
@@ -18,6 +18,11 @@
           },
         },
     });
+
+    var rt = $("").offset().right
+    console.log(rt); 
+
+
     
    });
 })(jQuery);
