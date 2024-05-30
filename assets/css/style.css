@@ -218,6 +218,9 @@ input:focus{
   background: linear-gradient(267deg, #FFF 0.4%, #FFF 72.35%);
   backdrop-filter: blur(25px);
 }
+.header-right-content {
+  padding-left: 58px;
+}
 
 .main-menu-area::before {
   position: absolute;
@@ -239,6 +242,9 @@ input:focus{
 }
 .main-menu .menu-wrapper ul li{
   padding-right: 32px;
+}
+.main-menu .menu-wrapper ul li:last-child{
+  padding-right: 0;
 }
 
 .main-menu .menu-wrapper ul li a{
@@ -496,8 +502,8 @@ input:focus{
   max-width: 276px;
 }
 .protection-absolute-img {
-  left: 184px;
-  top: 241px;
+  left: 186px;
+  top: 324px;
   z-index: 3;
 }
 .protection-shape-bg{

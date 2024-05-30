@@ -114,10 +114,15 @@
         padding-left: 0;
     }
     .protection-absolute-img {
-        display: none;
+        left: auto;
+        top: auto;
+        z-index: 3;
+        width: 450px;
+        bottom: -120px;
+        right: 0;
     }
     .protection-area .row {
-        --bs-gutter-y: 30px;
+        --bs-gutter-y: 150px;
     }
     /* protection section end */
 
@@ -246,6 +251,12 @@
 
     .main-title h1 {
         font-size: 56px;
+    }
+    .protection-absolute-img {
+        bottom: -90px;
+    }
+    .protection-area .row {
+        --bs-gutter-y: 100px;
     }
  
   
